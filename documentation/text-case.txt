@@ -1,0 +1,29 @@
+TEST PLAN 1 for Duel Duo WEBAPP
+
+Overview: 
+
+Test the main app's functionality
+
+Links:
+
+http://localhost:4000
+
+Test Criteria:
+
+- Ensure that I can see five robots
+- I should be able to select two of them
+- Two randomly selected robots should be generated, and their health should be added together and compared to the health of my two robots added together. Their attack points should add together and subtract from the total health of my robots and my robots' attack numbers added together should subtract from the total health of the computer's robots. This will occur in two attack rounds and I will win or lose, depending on if I still have health left.
+- I should be declared as winner or loser, and my number of wins and losses should be tracked and displayed on the screen.
+
+Entry Criteria:
+
+- Has access to the internet
+- Has a nonmobile browser available
+- Has a connection to the local port
+
+Exit Criteria:
+
+- All tests pass
+
+Other details: 
+This requires playing at least enough rounds of the game to win at least once and lose at least once to see if it is properly keeping track of your score.
